@@ -14,11 +14,6 @@
         "body": ["local ${0}"],
         "description": "Declare a variable"
     },
-    "locreq": {
-        "prefix": "lreq",
-        "body": ["local ${1:module} = require(\"${2:$1}\")$0"],
-        "description": "Require module as a variable"
-    },
     "class": {
         "prefix": "cl",
         "body": [
