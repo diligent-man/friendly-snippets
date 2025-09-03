@@ -9,14 +9,9 @@
         "body": "# pyright: ignore[$0]",
         "description": "Ignore specific line diagnostic in pyright (ignore all is unsafe)"
     },
-    "self": {
-        "prefix": "s",
-        "body": "self.$0",
-        "description": "Snippet to reference the self property in an object"
-    },
     "__magic__": {
         "prefix": "__",
-        "body": ["def __${0:init}__(self):", "\t${1: # Your code}\n"],
+        "body": ["def __${1:init}__(self):", "\t${2: # Your code}\n"],
         "description": "Create magic method"
     },
     "if __name__ == __main__": {
