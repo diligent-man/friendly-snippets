@@ -41,11 +41,6 @@
         "body": ["function($1)", "\t${0}", "end"],
         "description": "Create an anonymous function"
     },
-    "member-function": {
-        "prefix": "f,",
-        "body": ["${1:name} = function($2)", "\t${0}", "end,"],
-        "description": "Assign a function to a table key"
-    },
     "self": {
         "prefix": "self:",
         "body": ["function self:${1:methodName}($2)", "\t$0", "end"]
