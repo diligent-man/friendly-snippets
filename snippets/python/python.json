@@ -16,7 +16,7 @@
     },
     "__magic__": {
         "prefix": "__",
-        "body": "__${1:init}__$0",
+        "body": ["def __${0:init}__(self):\n", "${1: # Your code}\n"],
         "description": "Create magic method"
     },
     "if __name__ == __main__": {
