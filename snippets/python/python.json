@@ -1,9 +1,4 @@
 {
-    "__magic__": {
-        "prefix": "__",
-        "body": ["def __${1:init}__(self):", "\t${2: # Your code}\n"],
-        "description": "Create magic method"
-    },
     "if __name__ == __main__": {
         "prefix": "main",
         "body": ["def main() -> None", "\t${1: #Your code}\n", "\treturn None\n", "if __name__ == \"__main__\":", "\tmain()\n"],
