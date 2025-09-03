@@ -27,12 +27,12 @@
         "description": "Read file line by line"
     },
     "assign-function": {
-        "prefix": "gfn=",
+        "prefix": "gfn",
         "body": ["${1:name} = function($2)", "\t${0}", "end"],
         "description": "Assign a function to a variable"
     },
     "local-assign-function": {
-        "prefix": "lfn=",
+        "prefix": "lfn",
         "body": ["local ${1:name} = function($2)", "\t${0}", "end"],
         "description": "Assign a function to a local variable"
     },
