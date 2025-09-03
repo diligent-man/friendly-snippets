@@ -1,19 +1,4 @@
 {
-    "return": {
-        "prefix": "rt",
-        "body": ["return $0"],
-        "description": "Return value"
-    },
-    "assigment": {
-        "prefix": "ll",
-        "body": ["local ${1:varName} = ${0:value}"],
-        "description": "Define a variable"
-    },
-    "local": {
-        "prefix": "l",
-        "body": ["local ${0}"],
-        "description": "Declare a variable"
-    },
     "class": {
         "prefix": "cl",
         "body": [
