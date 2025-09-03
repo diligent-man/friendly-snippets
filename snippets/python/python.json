@@ -9,16 +9,6 @@
         "body": "# pyright: ignore[$0]",
         "description": "Ignore specific line diagnostic in pyright (ignore all is unsafe)"
     },
-    "Multiline string": {
-        "prefix": "#",
-        "body": ["\"\"\"\n$0", "\"\"\""],
-        "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
-    },
-    "One-line multiline string": {
-        "prefix": "##",
-        "body": "\"\"\"$0\"\"\"",
-        "description": "Snippet to avoid autopair plugin annoyances when typing multiple \""
-    },
     "self": {
         "prefix": "s",
         "body": "self.$0",
