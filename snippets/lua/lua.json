@@ -9,14 +9,6 @@
         ],
         "description": "Create a class"
     },
-    "if": {
-        "prefix": "if",
-        "body": ["if ${1:true} then", "\t$0", "end"]
-    },
-    "elseif": {
-        "prefix": "elseif",
-        "body": ["elseif ${1:true} then", "\t$0"]
-    },
     "for": {
         "prefix": "for",
         "body": ["for $1 do", "\t$0", "end"],
